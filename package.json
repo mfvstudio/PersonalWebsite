@@ -30,6 +30,6 @@
     "typescript": "^5.8.3"
   },
   "lint-staged": {
-    "*": "npm lint"
+    "*": "npm run lint:fix"
   }
 }
