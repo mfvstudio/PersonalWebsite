@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="gsap-split-text-header mt-40 text-center font-heading leading-normal font-medium text-7xl font-bold text-yellow-300">
+    <div class="gsap-split-text-header mt-40 text-center font-heading leading-normal font-medium text-7xl font-bold text-yellow-300 font-orbitron">
       Experience / Education
     </div>
     <div class="glex justify-center ml-20 mr-20 mt-20">
@@ -14,7 +14,7 @@
               <th>Education</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody class="text-lg">
             <!-- row 1 -->
             <tr>
               <td />
@@ -42,7 +42,7 @@
               <th>Experience</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody class="text-lg">
             <!-- row 1 -->
             <tr>
               <td />

@@ -18,18 +18,18 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar bg-base-100 shadow-sm font-orbitron">
     <div class="navbar-start">
       <NuxtLink
         to="/"
         class="btn btn-ghost text-xl gsap-split-text navbar-element-0"
-      >mfvDev</NuxtLink>
+      >MFVDEV</NuxtLink>
     </div>
     <div class="navbar-end hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
         <li>
           <NuxtLink
-            to="/"
+            to="/projects"
             class="btn btn-ghost text-xl gsap-split-text navbar-element-1"
           >Projects <Icon
             name="mynaui:book-open"

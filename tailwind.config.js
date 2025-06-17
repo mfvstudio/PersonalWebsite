@@ -2,7 +2,11 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        orbitron: 'Orbitron, sans-serif',
+      },
+    },
   },
   plugins: [require('daisyui')],
   daisyui: {

@@ -1,6 +1,7 @@
 import { gsap } from 'gsap';
 import { ExpoScaleEase } from 'gsap/EasePack';
 import { SplitText } from 'gsap/SplitText';
+import { ScrambleTextPlugin } from 'gsap/all';
 
 export default function animate() {
   if (!import.meta.client) return;
@@ -137,5 +138,24 @@ export function animateTextMaskedAppearing(str: string) {
       amount: 2,
     },
     ease: 'power3.out',
+  });
+}
+
+export function animateScrambleText(str: string) {
+  if (!import.meta.client) return;
+  gsap.registerPlugin(ScrambleTextPlugin);
+  const split = SplitText.create(str, {
+    type: 'chars',
+    charsClass: 'char',
+  });
+  gsap.to(split.chars, {
+    duration: 2,
+    overwrite: true,
+    stagger: 0.05,
+    scrambleText: {
+      text: '{original}',
+      chars: '01',
+      speed: 0.4,
+    },
   });
 }

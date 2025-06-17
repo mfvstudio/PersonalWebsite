@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     'nuxt-viewport',
     '@nuxt/eslint',
+    '@nuxt/fonts',
   ],
   devtools: { enabled: true },
   compatibilityDate: '2025-05-15',

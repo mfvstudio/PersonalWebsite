@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="gsap-split-text-contact mt-40 text-center font-heading leading-normal font-medium text-7xl font-bold text-yellow-300">
+    <div class="gsap-split-text-contact mt-40 text-center font-heading leading-normal font-medium text-7xl font-bold text-yellow-300 font-orbitron">
       Contact
     </div>
     <div class="flex justify-center mt-20">
-      <div class="list bg-base-100 rounded-box shadow-md">
+      <div class="list bg-base-100 rounded-box shadow-md text-3xl">
         <li class="list-row gsap-list-item-0">
           <div>
             <Icon
