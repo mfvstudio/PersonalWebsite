@@ -18,7 +18,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="navbar bg-base-100 shadow-sm font-orbitron">
+  <div class="navbar sticky top-0 bg-base-100 shadow-sm font-orbitron">
     <div class="navbar-start">
       <NuxtLink
         to="/"
